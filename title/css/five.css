@@ -1,0 +1,73 @@
+* {
+  outline: 1px solid #f00;
+}
+.container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+/* header */
+header .topLogo {
+  padding: 25px 0;
+  margin: 0 auto;
+}
+header .container {
+  flex-direction: column;
+}
+s header .Gnb {
+  margin: 10px auto;
+}
+header .Gnb ul {
+  display: flex;
+  gap: 30px;
+  line-height: 2;
+}
+/* mainVisaul */
+.mainVisual {
+  padding: 250px 0;
+  background: url(../img/mainVisual.jpg) no-repeat center center/cover;
+}
+.mainVisual .container {
+  flex-direction: column;
+}
+/* tvN */
+.tvN {
+  background-color: rgb(252, 153, 0);
+}
+
+/* intro */
+.intro {
+  padding: 100px 0;
+}
+.intro .container {
+  justify-content: center;
+  gap: 50px;
+}
+
+.intro .left .introLogo img {
+  margin-bottom: 50px;
+}
+.intro .left .introText {
+  color: #0f2548;
+}
+.intro .left .introText h2 span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.intro .left .introText h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.intro .left .introText p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.intro .right span {
+  display: block;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 4px 0;
+}
